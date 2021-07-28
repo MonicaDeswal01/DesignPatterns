@@ -15,6 +15,13 @@
 		FB9B715526B0335B00F5792A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9B715326B0335B00F5792A /* LaunchScreen.storyboard */; };
 		FB9B716026B0335B00F5792A /* DesignPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B715F26B0335B00F5792A /* DesignPatternsTests.swift */; };
 		FB9B716B26B0335B00F5792A /* DesignPatternsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B716A26B0335B00F5792A /* DesignPatternsUITests.swift */; };
+		FB9B717B26B0349A00F5792A /* SolidPrinciplesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B717A26B0349A00F5792A /* SolidPrinciplesViewController.swift */; };
+		FB9B717D26B03CB000F5792A /* SingleResponsibiltyPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B717C26B03CB000F5792A /* SingleResponsibiltyPrinciple.swift */; };
+		FB9B717F26B0414C00F5792A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B717E26B0414C00F5792A /* ViewModel.swift */; };
+		FB9B718226B043EB00F5792A /* OpenClosePrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B718126B043EB00F5792A /* OpenClosePrinciple.swift */; };
+		FB9B718526B113EF00F5792A /* LiskovSubstitutionPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B718426B113EF00F5792A /* LiskovSubstitutionPrinciple.swift */; };
+		FB9B718826B119FF00F5792A /* InterfaceSegregationPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B718726B119FF00F5792A /* InterfaceSegregationPrinciple.swift */; };
+		FB9B718B26B11FBB00F5792A /* DependencyInversionPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B718A26B11FBB00F5792A /* DependencyInversionPrinciple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		FB9B716626B0335B00F5792A /* DesignPatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB9B716A26B0335B00F5792A /* DesignPatternsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternsUITests.swift; sourceTree = "<group>"; };
 		FB9B716C26B0335B00F5792A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9B717A26B0349A00F5792A /* SolidPrinciplesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidPrinciplesViewController.swift; sourceTree = "<group>"; };
+		FB9B717C26B03CB000F5792A /* SingleResponsibiltyPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleResponsibiltyPrinciple.swift; sourceTree = "<group>"; };
+		FB9B717E26B0414C00F5792A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FB9B718126B043EB00F5792A /* OpenClosePrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenClosePrinciple.swift; sourceTree = "<group>"; };
+		FB9B718426B113EF00F5792A /* LiskovSubstitutionPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiskovSubstitutionPrinciple.swift; sourceTree = "<group>"; };
+		FB9B718726B119FF00F5792A /* InterfaceSegregationPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceSegregationPrinciple.swift; sourceTree = "<group>"; };
+		FB9B718A26B11FBB00F5792A /* DependencyInversionPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInversionPrinciple.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +113,11 @@
 		FB9B714726B0335900F5792A /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				FB9B717926B0345800F5792A /* SolidPrinciple */,
 				FB9B714826B0335900F5792A /* AppDelegate.swift */,
 				FB9B714A26B0335900F5792A /* SceneDelegate.swift */,
 				FB9B714C26B0335900F5792A /* ViewController.swift */,
+				FB9B717E26B0414C00F5792A /* ViewModel.swift */,
 				FB9B714E26B0335900F5792A /* Main.storyboard */,
 				FB9B715126B0335B00F5792A /* Assets.xcassets */,
 				FB9B715326B0335B00F5792A /* LaunchScreen.storyboard */,
@@ -126,6 +142,59 @@
 				FB9B716C26B0335B00F5792A /* Info.plist */,
 			);
 			path = DesignPatternsUITests;
+			sourceTree = "<group>";
+		};
+		FB9B717826B0343F00F5792A /* SingleResponsibiltyPrinciple */ = {
+			isa = PBXGroup;
+			children = (
+				FB9B717C26B03CB000F5792A /* SingleResponsibiltyPrinciple.swift */,
+			);
+			path = SingleResponsibiltyPrinciple;
+			sourceTree = "<group>";
+		};
+		FB9B717926B0345800F5792A /* SolidPrinciple */ = {
+			isa = PBXGroup;
+			children = (
+				FB9B717A26B0349A00F5792A /* SolidPrinciplesViewController.swift */,
+				FB9B718926B11F9A00F5792A /* DependencyInversionPrinciple */,
+				FB9B718626B119DE00F5792A /* InterfaceSegregationPrinciple */,
+				FB9B718326B113C600F5792A /* LiskovSubstitutionPrinciple */,
+				FB9B718026B043CC00F5792A /* OpenClosePrinciple */,
+				FB9B717826B0343F00F5792A /* SingleResponsibiltyPrinciple */,
+			);
+			path = SolidPrinciple;
+			sourceTree = "<group>";
+		};
+		FB9B718026B043CC00F5792A /* OpenClosePrinciple */ = {
+			isa = PBXGroup;
+			children = (
+				FB9B718126B043EB00F5792A /* OpenClosePrinciple.swift */,
+			);
+			path = OpenClosePrinciple;
+			sourceTree = "<group>";
+		};
+		FB9B718326B113C600F5792A /* LiskovSubstitutionPrinciple */ = {
+			isa = PBXGroup;
+			children = (
+				FB9B718426B113EF00F5792A /* LiskovSubstitutionPrinciple.swift */,
+			);
+			path = LiskovSubstitutionPrinciple;
+			sourceTree = "<group>";
+		};
+		FB9B718626B119DE00F5792A /* InterfaceSegregationPrinciple */ = {
+			isa = PBXGroup;
+			children = (
+				FB9B718726B119FF00F5792A /* InterfaceSegregationPrinciple.swift */,
+			);
+			path = InterfaceSegregationPrinciple;
+			sourceTree = "<group>";
+		};
+		FB9B718926B11F9A00F5792A /* DependencyInversionPrinciple */ = {
+			isa = PBXGroup;
+			children = (
+				FB9B718A26B11FBB00F5792A /* DependencyInversionPrinciple.swift */,
+			);
+			path = DependencyInversionPrinciple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +327,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB9B718826B119FF00F5792A /* InterfaceSegregationPrinciple.swift in Sources */,
 				FB9B714D26B0335900F5792A /* ViewController.swift in Sources */,
+				FB9B717D26B03CB000F5792A /* SingleResponsibiltyPrinciple.swift in Sources */,
+				FB9B717B26B0349A00F5792A /* SolidPrinciplesViewController.swift in Sources */,
 				FB9B714926B0335900F5792A /* AppDelegate.swift in Sources */,
+				FB9B718B26B11FBB00F5792A /* DependencyInversionPrinciple.swift in Sources */,
+				FB9B717F26B0414C00F5792A /* ViewModel.swift in Sources */,
+				FB9B718526B113EF00F5792A /* LiskovSubstitutionPrinciple.swift in Sources */,
+				FB9B718226B043EB00F5792A /* OpenClosePrinciple.swift in Sources */,
 				FB9B714B26B0335900F5792A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
