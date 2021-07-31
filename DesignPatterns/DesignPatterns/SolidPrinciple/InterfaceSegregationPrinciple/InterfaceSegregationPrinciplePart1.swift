@@ -74,7 +74,7 @@ class MultiFunctionMachineProtocolType {
     }
 }
 
-class InterfaceSegregationPrinciple {
+class InterfaceSegregationPrinciplePart1 {
     static func implementTheLogic() {
         let multiFunctionMachineProtocolType = MultiFunctionMachineProtocolType(printer: Printer.self as! Printer , scanner: Scanner.self as! Scanner)
         multiFunctionMachineProtocolType.print(d: Document())

@@ -16,12 +16,21 @@
 		FB9B716026B0335B00F5792A /* DesignPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B715F26B0335B00F5792A /* DesignPatternsTests.swift */; };
 		FB9B716B26B0335B00F5792A /* DesignPatternsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B716A26B0335B00F5792A /* DesignPatternsUITests.swift */; };
 		FB9B717B26B0349A00F5792A /* SolidPrinciplesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B717A26B0349A00F5792A /* SolidPrinciplesViewController.swift */; };
-		FB9B717D26B03CB000F5792A /* SingleResponsibiltyPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B717C26B03CB000F5792A /* SingleResponsibiltyPrinciple.swift */; };
+		FB9B717D26B03CB000F5792A /* SingleResponsibiltyPrinciplePart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B717C26B03CB000F5792A /* SingleResponsibiltyPrinciplePart1.swift */; };
 		FB9B717F26B0414C00F5792A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B717E26B0414C00F5792A /* ViewModel.swift */; };
-		FB9B718226B043EB00F5792A /* OpenClosePrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B718126B043EB00F5792A /* OpenClosePrinciple.swift */; };
+		FB9B718226B043EB00F5792A /* OpenClosePrinciplePart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B718126B043EB00F5792A /* OpenClosePrinciplePart1.swift */; };
 		FB9B718526B113EF00F5792A /* LiskovSubstitutionPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B718426B113EF00F5792A /* LiskovSubstitutionPrinciple.swift */; };
-		FB9B718826B119FF00F5792A /* InterfaceSegregationPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B718726B119FF00F5792A /* InterfaceSegregationPrinciple.swift */; };
-		FB9B718B26B11FBB00F5792A /* DependencyInversionPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B718A26B11FBB00F5792A /* DependencyInversionPrinciple.swift */; };
+		FB9B718826B119FF00F5792A /* InterfaceSegregationPrinciplePart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B718726B119FF00F5792A /* InterfaceSegregationPrinciplePart1.swift */; };
+		FB9B718B26B11FBB00F5792A /* DependencyInversionPrinciplePart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B718A26B11FBB00F5792A /* DependencyInversionPrinciplePart1.swift */; };
+		FB9B719126B1354D00F5792A /* BuilderPatternImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B719026B1354D00F5792A /* BuilderPatternImplementation.swift */; };
+		FB9B719326B13F4600F5792A /* BuildPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B719226B13F4600F5792A /* BuildPatternViewController.swift */; };
+		FB9B719526B14E1E00F5792A /* SingleResponsibiltyPrinciplePart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B719426B14E1E00F5792A /* SingleResponsibiltyPrinciplePart2.swift */; };
+		FB9B719726B1701200F5792A /* OpenClosePrinciplePart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B719626B1701200F5792A /* OpenClosePrinciplePart2.swift */; };
+		FB9B719A26B1732000F5792A /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B719926B1732000F5792A /* ProductCell.swift */; };
+		FB9B719C26B1733100F5792A /* AdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B719B26B1733100F5792A /* AdCell.swift */; };
+		FB9B71A126B176D700F5792A /* OpenClosePrinciplePart2Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B71A026B176D700F5792A /* OpenClosePrinciplePart2Protocol.swift */; };
+		FB9B71A326B1811300F5792A /* InterfaceSegregationPrinciplePart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B71A226B1811300F5792A /* InterfaceSegregationPrinciplePart2.swift */; };
+		FB9B71A526B1847900F5792A /* DependencyInversionPrinciplePart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B71A426B1847900F5792A /* DependencyInversionPrinciplePart2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,12 +66,21 @@
 		FB9B716A26B0335B00F5792A /* DesignPatternsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternsUITests.swift; sourceTree = "<group>"; };
 		FB9B716C26B0335B00F5792A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB9B717A26B0349A00F5792A /* SolidPrinciplesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidPrinciplesViewController.swift; sourceTree = "<group>"; };
-		FB9B717C26B03CB000F5792A /* SingleResponsibiltyPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleResponsibiltyPrinciple.swift; sourceTree = "<group>"; };
+		FB9B717C26B03CB000F5792A /* SingleResponsibiltyPrinciplePart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleResponsibiltyPrinciplePart1.swift; sourceTree = "<group>"; };
 		FB9B717E26B0414C00F5792A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		FB9B718126B043EB00F5792A /* OpenClosePrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenClosePrinciple.swift; sourceTree = "<group>"; };
+		FB9B718126B043EB00F5792A /* OpenClosePrinciplePart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenClosePrinciplePart1.swift; sourceTree = "<group>"; };
 		FB9B718426B113EF00F5792A /* LiskovSubstitutionPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiskovSubstitutionPrinciple.swift; sourceTree = "<group>"; };
-		FB9B718726B119FF00F5792A /* InterfaceSegregationPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceSegregationPrinciple.swift; sourceTree = "<group>"; };
-		FB9B718A26B11FBB00F5792A /* DependencyInversionPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInversionPrinciple.swift; sourceTree = "<group>"; };
+		FB9B718726B119FF00F5792A /* InterfaceSegregationPrinciplePart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceSegregationPrinciplePart1.swift; sourceTree = "<group>"; };
+		FB9B718A26B11FBB00F5792A /* DependencyInversionPrinciplePart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInversionPrinciplePart1.swift; sourceTree = "<group>"; };
+		FB9B719026B1354D00F5792A /* BuilderPatternImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderPatternImplementation.swift; sourceTree = "<group>"; };
+		FB9B719226B13F4600F5792A /* BuildPatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildPatternViewController.swift; sourceTree = "<group>"; };
+		FB9B719426B14E1E00F5792A /* SingleResponsibiltyPrinciplePart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleResponsibiltyPrinciplePart2.swift; sourceTree = "<group>"; };
+		FB9B719626B1701200F5792A /* OpenClosePrinciplePart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenClosePrinciplePart2.swift; sourceTree = "<group>"; };
+		FB9B719926B1732000F5792A /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		FB9B719B26B1733100F5792A /* AdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdCell.swift; sourceTree = "<group>"; };
+		FB9B71A026B176D700F5792A /* OpenClosePrinciplePart2Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenClosePrinciplePart2Protocol.swift; sourceTree = "<group>"; };
+		FB9B71A226B1811300F5792A /* InterfaceSegregationPrinciplePart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceSegregationPrinciplePart2.swift; sourceTree = "<group>"; };
+		FB9B71A426B1847900F5792A /* DependencyInversionPrinciplePart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInversionPrinciplePart2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +131,7 @@
 		FB9B714726B0335900F5792A /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				FB9B718C26B1331200F5792A /* BuilderPattern */,
 				FB9B717926B0345800F5792A /* SolidPrinciple */,
 				FB9B714826B0335900F5792A /* AppDelegate.swift */,
 				FB9B714A26B0335900F5792A /* SceneDelegate.swift */,
@@ -147,7 +166,8 @@
 		FB9B717826B0343F00F5792A /* SingleResponsibiltyPrinciple */ = {
 			isa = PBXGroup;
 			children = (
-				FB9B717C26B03CB000F5792A /* SingleResponsibiltyPrinciple.swift */,
+				FB9B717C26B03CB000F5792A /* SingleResponsibiltyPrinciplePart1.swift */,
+				FB9B719426B14E1E00F5792A /* SingleResponsibiltyPrinciplePart2.swift */,
 			);
 			path = SingleResponsibiltyPrinciple;
 			sourceTree = "<group>";
@@ -168,7 +188,8 @@
 		FB9B718026B043CC00F5792A /* OpenClosePrinciple */ = {
 			isa = PBXGroup;
 			children = (
-				FB9B718126B043EB00F5792A /* OpenClosePrinciple.swift */,
+				FB9B719F26B176B000F5792A /* OpenClosePrinciplePart2 */,
+				FB9B718126B043EB00F5792A /* OpenClosePrinciplePart1.swift */,
 			);
 			path = OpenClosePrinciple;
 			sourceTree = "<group>";
@@ -184,7 +205,8 @@
 		FB9B718626B119DE00F5792A /* InterfaceSegregationPrinciple */ = {
 			isa = PBXGroup;
 			children = (
-				FB9B718726B119FF00F5792A /* InterfaceSegregationPrinciple.swift */,
+				FB9B718726B119FF00F5792A /* InterfaceSegregationPrinciplePart1.swift */,
+				FB9B71A226B1811300F5792A /* InterfaceSegregationPrinciplePart2.swift */,
 			);
 			path = InterfaceSegregationPrinciple;
 			sourceTree = "<group>";
@@ -192,9 +214,46 @@
 		FB9B718926B11F9A00F5792A /* DependencyInversionPrinciple */ = {
 			isa = PBXGroup;
 			children = (
-				FB9B718A26B11FBB00F5792A /* DependencyInversionPrinciple.swift */,
+				FB9B718A26B11FBB00F5792A /* DependencyInversionPrinciplePart1.swift */,
+				FB9B71A426B1847900F5792A /* DependencyInversionPrinciplePart2.swift */,
 			);
 			path = DependencyInversionPrinciple;
+			sourceTree = "<group>";
+		};
+		FB9B718C26B1331200F5792A /* BuilderPattern */ = {
+			isa = PBXGroup;
+			children = (
+				FB9B718F26B1352600F5792A /* BuildImplementationFile */,
+				FB9B719226B13F4600F5792A /* BuildPatternViewController.swift */,
+			);
+			path = BuilderPattern;
+			sourceTree = "<group>";
+		};
+		FB9B718F26B1352600F5792A /* BuildImplementationFile */ = {
+			isa = PBXGroup;
+			children = (
+				FB9B719026B1354D00F5792A /* BuilderPatternImplementation.swift */,
+			);
+			path = BuildImplementationFile;
+			sourceTree = "<group>";
+		};
+		FB9B719826B172FF00F5792A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FB9B719926B1732000F5792A /* ProductCell.swift */,
+				FB9B719B26B1733100F5792A /* AdCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FB9B719F26B176B000F5792A /* OpenClosePrinciplePart2 */ = {
+			isa = PBXGroup;
+			children = (
+				FB9B719826B172FF00F5792A /* Cells */,
+				FB9B719626B1701200F5792A /* OpenClosePrinciplePart2.swift */,
+				FB9B71A026B176D700F5792A /* OpenClosePrinciplePart2Protocol.swift */,
+			);
+			path = OpenClosePrinciplePart2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,15 +386,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB9B718826B119FF00F5792A /* InterfaceSegregationPrinciple.swift in Sources */,
+				FB9B718826B119FF00F5792A /* InterfaceSegregationPrinciplePart1.swift in Sources */,
+				FB9B719126B1354D00F5792A /* BuilderPatternImplementation.swift in Sources */,
 				FB9B714D26B0335900F5792A /* ViewController.swift in Sources */,
-				FB9B717D26B03CB000F5792A /* SingleResponsibiltyPrinciple.swift in Sources */,
+				FB9B717D26B03CB000F5792A /* SingleResponsibiltyPrinciplePart1.swift in Sources */,
+				FB9B719326B13F4600F5792A /* BuildPatternViewController.swift in Sources */,
 				FB9B717B26B0349A00F5792A /* SolidPrinciplesViewController.swift in Sources */,
+				FB9B719526B14E1E00F5792A /* SingleResponsibiltyPrinciplePart2.swift in Sources */,
 				FB9B714926B0335900F5792A /* AppDelegate.swift in Sources */,
-				FB9B718B26B11FBB00F5792A /* DependencyInversionPrinciple.swift in Sources */,
+				FB9B718B26B11FBB00F5792A /* DependencyInversionPrinciplePart1.swift in Sources */,
+				FB9B719726B1701200F5792A /* OpenClosePrinciplePart2.swift in Sources */,
 				FB9B717F26B0414C00F5792A /* ViewModel.swift in Sources */,
+				FB9B71A526B1847900F5792A /* DependencyInversionPrinciplePart2.swift in Sources */,
+				FB9B71A126B176D700F5792A /* OpenClosePrinciplePart2Protocol.swift in Sources */,
 				FB9B718526B113EF00F5792A /* LiskovSubstitutionPrinciple.swift in Sources */,
-				FB9B718226B043EB00F5792A /* OpenClosePrinciple.swift in Sources */,
+				FB9B71A326B1811300F5792A /* InterfaceSegregationPrinciplePart2.swift in Sources */,
+				FB9B719C26B1733100F5792A /* AdCell.swift in Sources */,
+				FB9B719A26B1732000F5792A /* ProductCell.swift in Sources */,
+				FB9B718226B043EB00F5792A /* OpenClosePrinciplePart1.swift in Sources */,
 				FB9B714B26B0335900F5792A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

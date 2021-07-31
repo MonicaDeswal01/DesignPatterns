@@ -41,7 +41,7 @@ class Persistence {
     }
 }
 
-class  SingleResponsibiltyPrinciple {
+class  SingleResponsibiltyPrinciplePart1 {
     static func implementTheLogic() {
         let journal = Journal()
         let _ = journal.addEntry("Adding the first Entry")

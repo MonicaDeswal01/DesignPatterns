@@ -64,7 +64,17 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        viewModel.redirectToSolidPrinciple(navController: self)
+        switch indexPath.row {
+        case 0:
+            viewModel.redirectToSolidPrinciple(navController: self)
+        case 1:
+            viewModel.redirectToBuilderPrinciple(navController: self)
+        default:
+            viewModel.redirectToSolidPrinciple(navController: self)
+        }
+
     }
 
 }
+
+

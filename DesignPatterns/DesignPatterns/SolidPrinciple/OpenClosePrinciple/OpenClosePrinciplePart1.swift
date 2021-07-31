@@ -133,7 +133,7 @@ class BetterFilter: Filter {
     }
 }
 
-class OpenClosePrinciple {
+class OpenClosePrinciplePart1 {
 
     static func implementTheLogic() {
         let apple = Product("Apple", .green, .small)

@@ -18,12 +18,12 @@ class SolidPrinciplesViewController: UIViewController {
 
 
     @IBAction func singleResponsibiltyPrinciple(_ sender: Any) {
-        SingleResponsibiltyPrinciple.implementTheLogic()
+        SingleResponsibiltyPrinciplePart1.implementTheLogic()
     }
 
 
     @IBAction func openClosePrinciple(_ sender: Any) {
-        OpenClosePrinciple.implementTheLogic()
+        OpenClosePrinciplePart1.implementTheLogic()
     }
 
     @IBAction func liskovSubstitutionPrinciple(_ sender: Any) {
@@ -32,11 +32,11 @@ class SolidPrinciplesViewController: UIViewController {
 
 
     @IBAction func interfaceSegregationPrinciple(_ sender: Any) {
-        InterfaceSegregationPrinciple.implementTheLogic()
+        InterfaceSegregationPrinciplePart1.implementTheLogic()
     }
 
     @IBAction func dependencyInversionPrinciple(_ sender: Any) {
-        DependencyInversionPrinciple.implementTheLogic()
+        DependencyInversionPrinciplePart1.implementTheLogic()
     }
 
     /*

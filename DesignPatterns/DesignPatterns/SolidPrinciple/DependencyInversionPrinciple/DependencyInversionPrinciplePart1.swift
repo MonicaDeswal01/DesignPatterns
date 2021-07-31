@@ -58,7 +58,7 @@ class Research {
     }
 }
 
-class DependencyInversionPrinciple {
+class DependencyInversionPrinciplePart1 {
     static func implementTheLogic() {
         let parent = Person("John")
         let child1 = Person("Chris")

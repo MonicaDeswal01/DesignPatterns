@@ -129,6 +129,21 @@
             </objects>
             <point key="canvasLocation" x="1592.753623188406" y="122.54464285714285"/>
         </scene>
+        <!--Build Pattern View Controller-->
+        <scene sceneID="kAU-nV-pAb">
+            <objects>
+                <viewController storyboardIdentifier="BuildPatternViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QYr-QS-XbJ" customClass="BuildPatternViewController" customModule="DesignPatterns" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="30f-3s-wbT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="z2e-l6-Rk2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GBt-P9-sNM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2228" y="125"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="YmF-e2-zj6">
             <objects>
